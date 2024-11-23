@@ -6,11 +6,26 @@
   "author": "sejorc",
   "license": "MIT",
   "scripts": {
-    "start": "electron ."
+    "clean": "rimraf dist",
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.sergi.proWidget2",
+    "productName": "proWidget2",
+    "compression": "maximum",
+    "win": {
+      "target": "NSIS",
+      "icon": "./public/img/exe.ico"
+    }
   },
   "dependencies": {
-    "electron": "^33.2.0",
     "os": "^0.1.2",
+    "rimraf": "^6.0.1",
     "systeminformation": "^5.23.5"
+  },
+  "devDependencies": {
+    "electron": "^33.2.0",
+    "electron-builder": "^22.11.7"
   }
 }

@@ -13,3 +13,7 @@ body {
 .drag-area {
     -webkit-app-region: drag;
   }
+
+  #cpu-load{
+    padding-right: '50px';
+  }

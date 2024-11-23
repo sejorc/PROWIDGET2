@@ -7,11 +7,12 @@ let mainWindow;
 function createWindow() {
 
     mainWindow = new BrowserWindow({
-        width: 800,
-        height: 600,
+        // width: 800,
+        // height: 600,
         transparent: true,
         frame: false,
         skipTaskbar: true,
+        alwaysOnTop: true,
         webPreferences: {
             preload: path.join(__dirname, 'preload.js'),
             contextIsolation: true,
