@@ -1,0 +1,16 @@
+{
+  "name": "proWidget2",
+  "version": "1.0.0",
+  "description": "un widget de mi para mi",
+  "main": "main.js",
+  "author": "sejorc",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^33.2.0",
+    "os": "^0.1.2",
+    "systeminformation": "^5.23.5"
+  }
+}

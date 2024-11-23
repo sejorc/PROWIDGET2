@@ -1,0 +1,62 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+logs/*.log
+
+# Compilación y producción
+dist/
+build/
+out/
+
+# Carpetas de empaquetado de Electron
+*.asar
+*.asar.unpacked
+
+# Sistemas específicos
+.DS_Store
+Thumbs.db
+
+# Configuración de IDEs y editores
+.vscode/
+.idea/
+*.iml
+
+# Archivos temporales o de caché
+.tmp/
+.cache/
+*.pid
+*.seed
+*.pid.lock
+
+# Archivos generados por el sistema operativo
+*.swp
+*.swo
+*.swn
+._*
+
+# Configuración local de Electron
+electron-builder.yml
+.env
+.env.local
+.env.development
+.env.production
+
+# Empaquetado para distribución
+*.dmg
+*.exe
+*.deb
+*.snap
+*.rpm
+*.appimage
+*.msi
+*.pkg
+
+# Otros
+coverage/
+test-results/

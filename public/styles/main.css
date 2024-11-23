@@ -1,0 +1,15 @@
+/* Estilos generales */
+body {
+    background-color: #ffffff00; /* Fondo transparent */
+    color: #00FF00; /* Texto verde */
+    font-family: "Courier New", Courier, monospace; /* Fuente estilo consola */
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    margin: 0;
+}
+
+.drag-area {
+    -webkit-app-region: drag;
+  }
