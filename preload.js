@@ -8,6 +8,7 @@ try {
     });
 
     console.log("contextBridge ha expuesto el objeto 'electron'");
+    
 } catch (error) {
     console.error("Error en preload.js:", error);
 }
